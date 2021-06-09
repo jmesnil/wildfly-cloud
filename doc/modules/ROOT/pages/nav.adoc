@@ -1,2 +1,2 @@
-* xref:index.adoc[Getting Started Guide]
-* xref:config/helm-chart.adoc[Helm Chart for WildFly]
+* xref:index.adoc[]
+* xref:helm-chart.adoc[]

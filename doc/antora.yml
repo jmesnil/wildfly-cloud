@@ -2,4 +2,4 @@ name: wildfly-cloud
 title: WildFly on the Cloud
 version: main
 nav:
-  - modules/ROOT/nav.adoc
+  - modules/ROOT/pages/nav.adoc

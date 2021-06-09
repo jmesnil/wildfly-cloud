@@ -1,5 +1,4 @@
-[[index]]
-= WildFly on the Cloud
+= Getting Started with WildFly on the Cloud
 
 ## Getting Started with WildFly on the Cloud
 
