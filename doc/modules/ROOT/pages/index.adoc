@@ -1,4 +1,6 @@
 [[index]]
 = WildFly on the Cloud
 
-WildFly on the Cloud
+## Getting Started with WildFly on the Cloud
+
+This guide describes how to build and deploy WildFly applications on the Cloud.
