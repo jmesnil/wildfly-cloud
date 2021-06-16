@@ -1,5 +1,37 @@
 = Getting Started with WildFly on the Cloud
 
-## Getting Started with WildFly on the Cloud
+Guide to developing with WildFly for Kubernetes and Openshift.
 
-This guide describes how to build and deploy WildFly applications on the Cloud.
+== Introduction
+
+TODO
+
+== How Does WildFly Work on the Cloud?
+
+TODO
+
+include::./tutorials/build-deploy-openshift-basic.adoc[leveloffset=+1]
+
+== Build an application image for WildFly on the Cloud
+
+TODO
+
+== Deploy an application image for WildFly on the Cloud
+
+TODO
+
+== Configure WildFly for Your Java Application
+
+TODO
+
+== Capability Trimming in WildFly on the Cloud
+
+TODO
+
+== Troubleshooting
+
+TODO
+
+== Advanced Tutorials
+
+TODO
