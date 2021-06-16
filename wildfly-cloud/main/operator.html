@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Tutorial: Build and Deploy Your Java Application With WildFly on OpenShift :: WildFly on the Cloud</title>
+    <title>Kubernetes Operator for WildFly :: WildFly on the Cloud</title>
     <meta name="generator" content="Antora 2.3.4">
-    <link rel="stylesheet" href="../../../_/css/site.css">
-    <script>var uiRootPath = '../../../_'</script>
+    <link rel="stylesheet" href="../../_/css/site.css">
+    <script>var uiRootPath = '../../_'</script>
   </head>
   <body class="article">
 <header class="header">
   <nav class="navbar">
     <div class="navbar-brand">
-      <a class="navbar-item" href="../../..">WildFly on the Cloud</a>
+      <a class="navbar-item" href="../..">WildFly on the Cloud</a>
       <button class="navbar-burger" data-target="topbar-nav">
         <span></span>
         <span></span>
@@ -61,28 +61,28 @@
     <div class="panels">
 <div class="nav-panel-menu is-active" data-panel="menu">
   <nav class="nav-menu">
-    <h3 class="title"><a href="../index.html">WildFly on the Cloud</a></h3>
+    <h3 class="title"><a href="index.html">WildFly on the Cloud</a></h3>
 <ul class="nav-list">
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="../index.html">Getting Started with WildFly on the Cloud</a>
+    <a class="nav-link" href="index.html">Getting Started with WildFly on the Cloud</a>
   </li>
   <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
     <span class="nav-text">Guides</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../s2i.html">Source-to-image (S2I) for WildFly</a>
+    <a class="nav-link" href="s2i.html">Source-to-image (S2I) for WildFly</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../helm-chart.html">Helm Chart for WildFly</a>
+    <a class="nav-link" href="helm-chart.html">Helm Chart for WildFly</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="operator.html">Kubernetes Operator for WildFly</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../operator.html">Kubernetes Operator for WildFly</a>
-  </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../devfiles.html">ODO Devfiles for WildFly</a>
+    <a class="nav-link" href="devfiles.html">ODO Devfiles for WildFly</a>
   </li>
 </ul>
   </li>
@@ -98,10 +98,10 @@
   </div>
   <ul class="components">
     <li class="component is-current">
-      <a class="title" href="../index.html">WildFly on the Cloud</a>
+      <a class="title" href="index.html">WildFly on the Cloud</a>
       <ul class="versions">
         <li class="version is-current is-latest">
-          <a href="../index.html">main</a>
+          <a href="index.html">main</a>
         </li>
       </ul>
     </li>
@@ -113,99 +113,34 @@
 <main class="article">
 <div class="toolbar" role="navigation">
 <button class="nav-toggle"></button>
-  <a href="../index.html" class="home-link"></a>
+  <a href="index.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
-    <li><a href="../index.html">WildFly on the Cloud</a></li>
-    <li><a href="build-deploy-openshift-basic.html">Tutorial: Build and Deploy Your Java Application With WildFly on OpenShift</a></li>
+    <li><a href="index.html">WildFly on the Cloud</a></li>
+    <li>Guides</li>
+    <li><a href="operator.html">Kubernetes Operator for WildFly</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/jmesnil/wildfly-cloud/edit/main/doc/modules/ROOT/pages/tutorials/build-deploy-openshift-basic.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/jmesnil/wildfly-cloud/edit/main/doc/modules/ROOT/pages/operator.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">Tutorial: Build and Deploy Your Java Application With WildFly on OpenShift</h1>
+<h1 class="page">Kubernetes Operator for WildFly</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
+<p>This guide describes how to deploy and manage WildFly applications on the Cloud using its Kubernetes Operator</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_introduction"><a class="anchor" href="#_introduction"></a>Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>TODO</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_go_to_openshift_cluster"><a class="anchor" href="#_go_to_openshift_cluster"></a>Go to OpenShift cluster</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>e.g. developer-sandbox</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_use_wildfly_chart"><a class="anchor" href="#_use_wildfly_chart"></a>Use WildFly Chart</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p><code>+ Add &gt; Helm Chart &gt; WildFly`</code></p>
-</li>
-<li>
-<p>Click on <code>Install Helm Chart</code></p>
-<div class="ulist">
-<ul>
-<li>
-<p>Release name: <code>my-wildfly-app</code></p>
-</li>
-<li>
-<p>Copy the following content in the YAML view:</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-yaml hljs" data-lang="yaml">build:
-  uri: https://github.com/wildfly/quickstart.git
-  ref: 23.0.2.SP1
-  mode: bootable-jar
-  env:
-  - name: ARTIFACT_DIR
-    value: microprofile-config/target
-  - name: MAVEN_ARGS_APPEND
-    # Use the bootable-jar-openshift profile to ensure that the application
-    # can be deployed on OpenShift but disable JKube as the image will be
-    # built and deployed by this chart.
-    value: -am -pl microprofile-config -Pbootable-jar-openshift -Djkube.skip=true
-  - name: MAVEN_OPTS
-    value: '-XX:MetaspaceSize=251m -XX:MaxMetaspaceSize=256m'
-deploy:
-  replicas: 1
-  env:
-  - name: CONFIG_PROP
-    value: Hello from OpenShift</code></pre>
-</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Click on <code>Install</code></p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>The Helm release will build and deploy the Java applications.</p>
-</div>
-<div class="paragraph">
-<p>When it is done, go the the URL from the <code>Route</code>, append <code>/config/value</code> and you will see the message:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>Hello from OpenShift</pre>
-</div>
 </div>
 </div>
 </div>
@@ -217,7 +152,7 @@ deploy:
   <p>This page was built using the Antora default UI.</p>
   <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
 </footer>
-<script src="../../../_/js/site.js"></script>
-<script async src="../../../_/js/vendor/highlight.js"></script>
+<script src="../../_/js/site.js"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
   </body>
 </html>
