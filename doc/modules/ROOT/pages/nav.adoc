@@ -1,5 +1,5 @@
 * xref:index.adoc[]
-* Guides
+* Reference Guides
 ** xref:s2i.adoc[]
 ** xref:helm-chart.adoc[]
 ** xref:operator.adoc[]

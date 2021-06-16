@@ -2,7 +2,7 @@
 # usage: antora generate antora-playbook.yml
 site:
   title: WildFly on the Cloud
-  start_page: wildfly-cloud::index.adoc
+  start_page: wildfly-cloud::getting-started.adoc
 content:
   sources:
     - url: ..
