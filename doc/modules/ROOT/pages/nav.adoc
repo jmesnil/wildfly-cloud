@@ -1,2 +1,7 @@
 * xref:index.adoc[]
-* xref:helm-chart.adoc[]
+* Guides
+** xref:s2i.adoc[]
+** xref:helm-chart.adoc[]
+** xref:operator.adoc[]
+** xref:devfiles.adoc[]
+
