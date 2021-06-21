@@ -12,11 +12,11 @@ TODO
 
 include::./tutorials/build-deploy-openshift-basic.adoc[leveloffset=+1]
 
-== Build an application image for WildFly on the Cloud
+== Build an application image with WildFly
 
 TODO
 
-== Deploy an application image for WildFly on the Cloud
+== Deploy an application image with WildFly
 
 TODO
 
