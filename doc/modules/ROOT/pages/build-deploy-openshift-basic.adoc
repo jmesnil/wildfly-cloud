@@ -29,7 +29,7 @@ We will build and deploy the application on OpenShift using the Helm Chart for W
 ----
 build:
   uri: https://github.com/wildfly/quickstart.git
-  ref: 24.0.0.SP1
+  ref: 23.0.2.SP1
   mode: bootable-jar
   env:
   - name: ARTIFACT_DIR
