@@ -213,10 +213,11 @@ $ oc get deployment my-wildfly-app -w</code></pre>
 <div class="paragraph">
 <p>From the OpenShift Developer Console, we can use the <code>Topology</code> view to see progress on the build and deployment of our application:</p>
 </div>
-<div class="imageblock">
+<div id="img-helm-release-toplogy-openshift" class="imageblock">
 <div class="content">
-<img src="../_images/helm-release-toplogy-openshift.png" alt="helm release toplogy openshift">
+<img src="../_images/helm-release-toplogy-openshift.png" alt="Helm Release of the application displayed in OpenShift Topology view">
 </div>
+<div class="title">Figure 1. Helm Release of the application displayed in OpenShift Topology view</div>
 </div>
 <div class="paragraph">
 <p>When build is finished (the bottom-left icon will display a green check) and the application is deployed (the circle outline is in dark blue), you can go the the URL (using the top-right icon) from the <code>Route</code>, append <code>/config/value</code> and you will see the message:</p>
