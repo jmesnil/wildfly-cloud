@@ -5,5 +5,5 @@
 ** xref:operator.adoc[]
 ** xref:devfiles.adoc[]
 * Tutorials
-** xref:build-deploy-openshif-basic.adoc[]
+** xref:build-deploy-openshift-basic.adoc[]
 
