@@ -1,4 +1,4 @@
-= Tutorial: Build and Deploy Your Java Application With WildFly on OpenShift
+= Build and Deploy Your Java Application With WildFly on OpenShift
 
 This tutorial will illustrate how to build and deploy a Java application with WildFly on OpenShift.
 
@@ -29,7 +29,7 @@ We will build and deploy the application on OpenShift using the Helm Chart for W
 ----
 build:
   uri: https://github.com/wildfly/quickstart.git
-  ref: 23.0.2.SP1
+  ref: 24.0.0.SP1
   mode: bootable-jar
   env:
   - name: ARTIFACT_DIR
@@ -74,5 +74,7 @@ When build is finished (the bottom-left icon will display a green check) and the
 ----
 Hello from OpenShift
 ----
+
+This message corresponds to the `CONFIG_PROP` environment variable defined in the Helm Chart YAML file.
 
 Congratulations, you have built and deployed your first Java application with WildFly on OpenShift!
