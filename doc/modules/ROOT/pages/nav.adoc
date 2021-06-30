@@ -1,6 +1,6 @@
 * xref:index.adoc[]
 * Reference Guides
-** xref:wildfly-s2i:index.adoc[]
+** xref:wildfly-s2i::index.adoc[]
 ** xref:helm-chart.adoc[]
 ** xref:operator.adoc[]
 ** xref:devfiles.adoc[]
