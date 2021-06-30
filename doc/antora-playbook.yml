@@ -11,6 +11,9 @@ content:
     - url: https://github.com/jmesnil/wildfly-s2i.git
       start_path: doc
       branches: antora
+    - url: https://github.com/jmesnil/wildfly-operator.git
+      start_path: doc
+      branches: antora
 ui:
   bundle:
     url: https://github.com/jmesnil/wildfly-cloud-antora-ui/raw/main/build/ui-bundle.zip

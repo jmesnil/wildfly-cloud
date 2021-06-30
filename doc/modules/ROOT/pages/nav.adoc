@@ -2,7 +2,7 @@
 * Reference Guides
 ** xref:wildfly-s2i::index.adoc[]
 ** xref:helm-chart.adoc[]
-** xref:operator.adoc[]
+** xref:wildfly-operator::/user-guide.adoc[]
 ** xref:devfiles.adoc[]
 * Tutorials
 ** xref:build-deploy-openshift-basic.adoc[]
