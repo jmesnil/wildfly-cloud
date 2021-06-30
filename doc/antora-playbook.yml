@@ -13,7 +13,7 @@ content:
       branches: antora
     - url: https://github.com/jmesnil/wildfly-operator.git
       start_path: doc
-      branches: antora
+      branches: antobldzdra
 ui:
   bundle:
     url: https://github.com/jmesnil/wildfly-cloud-antora-ui/raw/main/build/ui-bundle.zip
